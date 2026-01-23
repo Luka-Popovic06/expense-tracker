@@ -99,7 +99,56 @@ form {
 .total {
   color: rgb(51, 206, 64);
 }
-
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-standard {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: rgba(213, 213, 213, 0.675);
+  border: 3px solid white;
+  border-radius: 7px;
+}
+input:focus {
+  outline: none;
+  border-color: teal;
+  box-shadow: 0 0 0 2px rgba(0, 128, 128, 0.2);
+}
+.input-standard-mini {
+  width: 45.2%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: rgba(213, 213, 213, 0.675);
+  border: 3px solid white;
+  border-radius: 7px;
+}
+.input-standard-max {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 20px 40px 20px;
+  background-color: rgba(213, 213, 213, 0.675);
+  border: 3px solid white;
+  border-radius: 7px;
+}
+form select {
+  position: absolute;
+  top: 137px;
+  left: 230px;
+  width: 51.3%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: rgba(213, 213, 213, 0.675);
+  border: 3px solid white;
+  border-radius: 7px;
+}
+form select:focus {
+  outline: none;
+  border-color: teal;
+  box-shadow: 0 0 0 2px rgba(0, 128, 128, 0.2);
+}
 .btn {
   padding: 10px 40px;
   border-radius: 30px;
