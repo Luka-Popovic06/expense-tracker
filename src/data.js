@@ -15,7 +15,13 @@ export const formFields = {
     {
       type: "date",
       text: "Enter A Date",
-      variation: "standard",
+      variation: "standard-mini",
+      value: "",
+    },
+    {
+      type: "text",
+      text: "Add A Reference",
+      variation: "standard-max",
       value: "",
     },
   ],
@@ -35,13 +41,23 @@ export const formFields = {
     {
       type: "date",
       text: "Enter A Date",
-      variation: "standard",
+      variation: "standard-mini",
+      value: "",
+    },
+    {
+      type: "text",
+      text: "Add A Reference",
+      variation: "standard-max",
       value: "",
     },
   ],
 };
 export const categories = {
   incomeCategories: [
+    {
+      value: "",
+      text: "Select Option",
+    },
     {
       value: "salary",
       text: "Salary",
@@ -72,6 +88,10 @@ export const categories = {
     },
   ],
   expenseCategories: [
+    {
+      value: "",
+      text: "Select Option",
+    },
     {
       value: "education",
       text: "Education",
