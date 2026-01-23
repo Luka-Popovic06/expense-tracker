@@ -65,3 +65,69 @@
   width: 30px;
   height: 30px;
 }
+
+/*Main*/
+.main-container {
+  width: 60%;
+  height: 80%;
+  padding: 30px;
+  background-color: rgba(213, 213, 213, 0.675);
+  border-radius: 2rem;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-container h1 {
+  font-size: 2rem;
+}
+form {
+  position: relative;
+  width: 43%;
+}
+.total-income {
+  font-size: 2rem;
+  background-color: rgba(213, 213, 213, 0.675);
+  border: 3px solid white;
+  border-radius: 2rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.total {
+  color: rgb(51, 206, 64);
+}
+
+.btn {
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+.btn-standard-green {
+  background-color: rgb(51, 206, 64);
+}
+.btn-standard-green:hover {
+  background-color: rgb(43, 165, 54);
+  transition: 0.3s;
+}
+.btn-standard-red {
+  background-color: rgb(212, 70, 70);
+}
+.main-mini-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list-box {
+  width: 47%;
+  background-color: rgba(213, 213, 213, 0.675);
+  border-radius: 2rem;
+  border: 2px solid white;
+}
