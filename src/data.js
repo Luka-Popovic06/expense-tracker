@@ -1,24 +1,28 @@
 export const formFields = {
   incomeFields: [
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Salary Title",
       variation: "standard",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Salary Amount",
       variation: "standard",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "date",
       text: "Enter A Date",
       variation: "standard-mini",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Add A Reference",
       variation: "standard-max",
@@ -27,24 +31,28 @@ export const formFields = {
   ],
   expenseFields: [
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Expense Title",
       variation: "standard",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Expense Title",
       variation: "standard",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "date",
       text: "Enter A Date",
       variation: "standard-mini",
       value: "",
     },
     {
+      id: crypto.randomUUID(),
       type: "text",
       text: "Add A Reference",
       variation: "standard-max",
