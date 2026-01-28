@@ -173,10 +173,13 @@ form select:focus {
   justify-content: space-between;
 }
 .list-box {
-  width: 47%;
+  width: 49%;
+  height: 400px;
   background-color: rgba(213, 213, 213, 0.675);
   border-radius: 2rem;
   border: 2px solid white;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .all-transacrtions-list {
   width: 100%;
@@ -207,4 +210,34 @@ form select:focus {
 }
 .total-balance {
   color: rgb(51, 206, 64);
+}
+.info-box {
+  width: 100%;
+  padding: 15px 9px 12px 9px;
+  background-color: teal;
+  font-weight: 550;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 2px #fff solid;
+}
+.list-box ul {
+  text-decoration: none;
+}
+.list-box li {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60px 60px 120px 90px 80px;
+  column-gap: 5px;
+  background-color: rgba(186, 186, 186, 0.838);
+  font-weight: 300;
+  padding: 15px 5px 12px 5px;
+  margin-bottom: 2px;
+}
+.p-green {
+  color: rgb(1, 255, 22);
+}
+.p-red {
+  color: red;
 }

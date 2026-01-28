@@ -1,4 +1,4 @@
-const Input = ({ inpType, text, variation, action }) => {
+const Input = ({ inpType, text, variation, action, value }) => {
   let inpClass;
   if (variation === "standard") inpClass = "input-standard";
   if (variation === "standard-mini") inpClass = "input-standard-mini";
@@ -6,10 +6,12 @@ const Input = ({ inpType, text, variation, action }) => {
 
   return (
     <input
+      value={value}
       type={inpType}
       placeholder={text}
       className={inpClass}
       onChange={(e) => action(e.target.value)}
+      required
     />
   );
 };

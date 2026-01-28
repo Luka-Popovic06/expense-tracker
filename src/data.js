@@ -9,8 +9,8 @@ export const formFields = {
     },
     {
       id: crypto.randomUUID(),
-      type: "text",
-      text: "Salary Amount",
+      type: "number",
+      text: "Amount",
       variation: "standard",
       value: "",
     },
@@ -39,8 +39,8 @@ export const formFields = {
     },
     {
       id: crypto.randomUUID(),
-      type: "text",
-      text: "Expense Title",
+      type: "number",
+      text: "Amount",
       variation: "standard",
       value: "",
     },
@@ -60,7 +60,7 @@ export const formFields = {
     },
   ],
 };
-export const categories = {
+export const formCategories = {
   incomeCategories: [
     {
       value: "",
